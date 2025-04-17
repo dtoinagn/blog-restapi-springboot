@@ -15,6 +15,7 @@
 *.war
 *.ear
 *.db
+/.vscode/
 
 ### IntelliJ IDEA ###
 .idea

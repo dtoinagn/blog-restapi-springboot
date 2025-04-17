@@ -8,15 +8,9 @@ Build Restful CRUD API for a blog using Spring Boot, Mysql, JPA and Hibernate.
 
 **1. Clone the application**
 
-```bash
-git clone https://github.com/coma123/Spring-Boot-Blog-REST-API.git
-```
-
 **2. Create Mysql database**
-```bash
-create database blogapi
-```
-- run `src/main/resources/blogapi.sql`
+TODO: Set up local DB
+ `src/main/resources/blogapi.sql`
 
 **3. Change mysql username and password as per your installation**
 
@@ -29,6 +23,11 @@ create database blogapi
 mvn spring-boot:run
 ```
 The app will start running at <http://localhost:8080>
+
+**5. Build the jar locally
+```bash
+mvn clean package spring-boot:repackage
+```
 
 ## Explore Rest APIs
 
